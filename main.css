@@ -13,22 +13,24 @@
     grid-column-gap: 1%;
 }
 
-.produto {} /* bloco */
+.produto__item {
+    /* Estilos para o item de produto */
+} 
 
-.produto-imagem { /* elemento */
+.produtos__imagem { /* elemento */
     width: 100%;
 }
 
-.produto-nome { /* elemento */
+.produtos__nome { /* elemento */
     font-size: 1.2em;
     margin: 8px 0;
 }
 
-.produto-descricao { /* elemento */
+.produtos__descricao { /* elemento */
     color: gray;
 }
 
-.em-destaque { /* modificador */
+.produtos__item--destaque { /* modificador */
     border: 2px solid gold;
     padding: 8px;
     background-color: #ffff42;
